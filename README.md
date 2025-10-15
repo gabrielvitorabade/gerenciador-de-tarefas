@@ -1,68 +1,87 @@
-# React To-Do List
-## Uma aplicação simples de lista de tarefas construída com React. Este projeto demonstra conceitos fundamentais como gerenciamento de estado, manipulação de eventos e renderização de listas.
+# ✅ Gerenciador de Tarefas — React 
 
-# Sumário
-- Funcionalidades
-- Tecnologias e Dependências
-- Instalação
-- Uso
-- Contribuição
-- Próximos Passos
+Uma aplicação simples e funcional de lista de tarefas desenvolvida com React, ideal para praticar conceitos fundamentais como gerenciamento de estado, manipulação de eventos e renderização de listas. Com uma interface minimalista e responsiva, este projeto é perfeito para quem está começando no ecossistema React.
 
-# Funcionalidades
-- Adicionar novas tarefas
-- Marcar e desmarcar tarefas como concluídas
-- Excluir tarefas individuais
-- Limpar todas as tarefas concluídas
-- Interface responsiva e minimalista
+## 🚀 Tecnologias Utilizadas
 
-# Tecnologias e Dependências
-- React (Create React App)
-- JavaScript (ES6+)
-- CSS puro
-- Gerenciador de pacotes: npm ou yarn
+- React (Create React App) — Biblioteca principal para construção da interface
+- JavaScript (ES6+) — Lógica da aplicação e manipulação de dados
+- CSS Puro — Estilização leve e responsiva
+- npm / yarn — Gerenciadores de pacotes
+  
+## ✨ Funcionalidades
 
-# Instalação
-- Clone este repositório
-git clone https://github.com/gabrielvitorabade/react-inicial.git
-- Navegue até o diretório do projeto
-cd react-inicial/todo-list
-- Instale as dependências
+-  🔍 Pesquisar tarefas por nome/ palavra chave 
+-  ➕ Adicionar novas tarefas
+- ✅ Marcar e desmarcar tarefas como concluídas
+- 🗑️ Excluir tarefas individualmente
+- 🧹 Limpar todas as tarefas concluídas
+- 📱 Interface responsiva e minimalista
+  
+## 📁 Estrutura do Projeto
+gerenciador-de-tarefas/
+
+├── public/
+
+│   └── index.html
+
+├── src/
+
+│   ├── components/
+
+│   ├── App.jsx
+
+│   ├── index.js
+
+│   └── styles.css
+
+├── package.json
+
+└── README.md
+
+
+## 🧠 Desafios Enfrentados
+
+1. Gerenciamento de Estado
+- Utilização do useState para controlar a lista de tarefas e seus estados (pendente/concluída).
+- Atualização eficiente da UI com base nas interações do usuário.
+2. Manipulação de Eventos
+- Captura de eventos de clique e teclado para adicionar, concluir ou excluir tarefas.
+- Prevenção de ações inválidas (como adicionar tarefas vazias).
+3. Renderização Condicional
+- Exibição dinâmica de tarefas com base no status.
+- Ocultação de botões e mensagens conforme o contexto da lista.
+4. Pesquisa com listagem automatica
+- Renderização automatica de resultados
+- Design de busca intuítivo 
+
+## 🧪 Próximos Passos
+
+- 🔍 Filtro por status (Todas, Pendentes, Concluídas)
+- 💾 Persistência de tarefas no LocalStorage
+- 🧪 Testes unitários com Jest e React Testing Library
+- 🚀 Deploy em Netlify, Vercel ou GitHub Pages
+📦 Como Executar Localmente
+
+# Clone o repositório
+git clone https://github.com/gabrielvitorabade/gerenciador-de-tarefas
+
+# Acesse o diretório
+cd gerenciador-de-tarefas
+
+# Instale as dependências
 npm install
-### ou
-yarn install
 
-
-
-#Uso
-Para executar a aplicação em modo de desenvolvimento:
+# Inicie o servidor de desenvolvimento
 npm start
-### ou
-yarn start
 
 
-Em seguida, abra seu navegador em http://localhost:3000.
-Como interagir com a lista
-- Digite uma tarefa no campo de entrada e pressione Enter ou clique em “Adicionar”
-- Clique no 'concluir' de uma tarefa para marcar/desmarcar como concluída
-- Clique no ícone de lixeira para remover uma tarefa específica
-- Use “Limpar concluídas” para apagar todas as tarefas marcadas
-
-# Contribuição
-- Faça um fork deste repositório
-- Crie uma branch para sua feature:
-git checkout -b feature/nome-da-feature
-- Realize suas modificações e faça commit:
-git commit -m "Adiciona feature X"
-- Envie para o repositório remoto:
-git push origin feature/nome-da-feature
-- Abra um Pull Request detalhando suas mudanças
+Acesse em: http://localhost:3000
+🤝 Contribuição
+- Faça um fork do repositório
+- Crie uma branch: git checkout -b feature/nova-feature
+- Commit suas alterações: git commit -m 'Adiciona nova feature'
+- Push para a branch: git push origin feature/nova-feature
+- Abra um Pull Request
 
 
-# Próximos Passos
-- Implementar filtro por status (Todas, Pendentes, Concluídas)
-- Persistir tarefas no LocalStorage
-- Adicionar testes unitários com Jest e React Testing Library
-- Fazer deploy em Netlify, Vercel ou GitHub Pages
-
-## Fez melhorias ou encontrou problemas? Abra uma issue ou envie um pull request. Espero que este projeto seja útil no seu aprendizado com React!
