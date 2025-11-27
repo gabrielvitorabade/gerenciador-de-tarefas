@@ -30,6 +30,8 @@ function App() {
       iscomplete: false,
     }
   ])
+
+
   const addTodo = (text, category) => {
     const newTodos = [
       ...todos,
@@ -42,10 +44,14 @@ function App() {
     ];
     setTodos(newTodos);
   }
+
+
   const removeTodo = (id) => {
     const newTodos = todos.filter((todo) => todo.id !== id);
     setTodos(newTodos);
   }
+
+
   const completeTodo = (id) => {
     const newTodos = todos.map((todo) => {
       if (todo.id === id) {
@@ -54,7 +60,11 @@ function App() {
       return todo;
     }
     )
+
+
     setTodos(newTodos)
+
+    
   }
 
 
