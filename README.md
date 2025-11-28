@@ -57,11 +57,12 @@ gerenciador-de-tarefas/
 
 ## 🧪 Próximos Passos
 
-- 🔍 Filtro por status (Todas, Pendentes, Concluídas)
+- 🔍 Filtro por categoria (Trabalho, Estudos, Pessoal)
 - 💾 Persistência de tarefas no LocalStorage
 - 🧪 Testes unitários com Jest e React Testing Library
 - 🚀 Deploy em Netlify, Vercel ou GitHub Pages
-📦 Como Executar Localmente
+
+## 📦 Como Executar Localmente
 
 # Clone o repositório
 git clone https://github.com/gabrielvitorabade/gerenciador-de-tarefas
@@ -73,7 +74,7 @@ cd gerenciador-de-tarefas
 npm install
 
 # Inicie o servidor de desenvolvimento
-npm start
+npm run dev
 
 
 Acesse em: http://localhost:3000
